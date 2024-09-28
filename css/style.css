@@ -1,0 +1,173 @@
+#mainNav{
+    background: white;
+}
+
+.navbar, .navbar-collapse, .navbar-nav{
+    font-weight: bold;
+}
+
+.slider1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url("../assets/img/banner_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.slider2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url("../assets/img/banner_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.slider3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url("../assets/img/banner_3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.masthead h1, .masthead .h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.4rem;
+    background: linear-gradient(rgba(0, 2, 0, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+
+  .masthead h2, .masthead .h2 {
+    max-width: 5rem;
+    font-size: .5rem;
+  }
+  @media (min-width: 768px) {
+    .masthead h1, .masthead .h1 {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1, .masthead .h1 {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      letter-spacing: 0.4rem;
+    }
+    .masthead h2, .masthead .h2 {
+      max-width: 15rem;
+      font-size: .25rem;
+    }
+  }
+
+  .about-section h2, .about-section .h2{
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(0, 2, 0, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  .about-section {
+    padding-top: 10rem;
+  }
+  .about-section p {
+    margin-bottom: 5rem;
+  }
+
+  .main-section {
+    padding: 10rem 0;
+  }
+  .main-section .featured-text {
+    padding: 2rem;
+  }
+  @media (min-width: 992px) {
+    .main-section .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid #62dd2f;
+    }
+  }
+  .main-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+  }
+  @media (min-width: 992px) {
+    .main-section .project-text {
+      padding: 5rem;
+    }
+  }
+
+  .main-bg{
+    background-color: #62dd2f;
+  }
+
+  .contact-section {
+    padding-top: 5rem;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #62dd2f;
+  }
+  .contact-section .card h4, .contact-section .card .h4 {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    opacity: 1;
+    border-color: #62dd2f;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
+  .footer {
+    padding: 5rem 0;
+  }
+
+  /*Estilos del carousel*/
+  .carousel-item{
+    height: 100vh;
+  }

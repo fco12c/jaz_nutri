@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazmin Herrera - Nutrición</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css">
+    <!-- Goggle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Enlaza tu CSS aquí -->
+    <!--<link rel="stylesheet" href="css/slider.css">-->
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="menubr container px-4 px-lg-5">
+            <!--<a class="navbar-brand" href="#page-top">La micaela</a>-->
+            <img src="assets/img/logo.png" width="10%" alt="">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--slide images-->
+    <!--<div class="slider">
+        <div class="slider--inner masthead">
+            <img src="assets/img/banner_2.jpg" alt="" />
+            <img src="assets/img/banner_1.jpg" alt="" />
+            <img src="assets/img/banner_3.jpg" alt="" />
+        </div>
+    </div>-->
+
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/banner_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/banner_1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/banner_3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--Header-->
+    <!-- principal slider -->
+    <!--<div class="slider">
+        <div class="slider--inner">-->
+            <!--<header class="slider1 masthead">
+                <div class="container px-4 px-lg-5 d-flex h-100 align-items-center">
+                    <div class="d-flex">
+                        <div class="text-center">
+                            <h1 class="mx-auto my-0">Mision</h1>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, <br>
+                                        adipisicing elit. Soluta placeat sequik.</p>
+                            <a class="btn btn-primary" style="background-color: #62dd2f !important; border-color: #62dd2f !important;" href="#about">Comienza ya</a>
+                        </div>
+                    </div>
+                </div>
+            </header>-->
+            <!-- segundo slider -->
+            <!--<header class="slider2 masthead">
+                <div class="container px-4 px-lg-5 d-flex h-100 align-items-center align-items-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="text-center">
+                            <h1 class="mx-auto my-0">Vision</h1>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, <br>
+                                        adipisicing elit. Soluta placeat sequik.</p>
+                            <a class="btn btn-primary" style="background-color: #62dd2f !important; border-color: #62dd2f !important;" href="#about">Comienza ya</a>
+                        </div>
+                    </div>
+                </div>
+            </header>-->
+            <!-- terciario slider -->
+            <!--<header class="slider3 masthead">
+                <div class="container px-4 px-lg-5 d-flex h-100 align-items-center">
+                    <div class="d-flex">
+                        <div class="text-center">
+                            <h1 class="mx-auto my-0">Objetivo</h1>
+                            <p class="">Lorem ipsum dolor sit amet consectetur, <br>
+                                        adipisicing elit. Soluta placeat sequik.</p>
+                            <a class="btn btn-primary" style="background-color: #62dd2f !important; border-color: #62dd2f !important;" href="#about">Comienza ya</a>
+                        </div>
+                    </div>
+                </div>
+            </header>-->
+        <!--</div>
+    </div>-->
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-black mb-4">Jazmin Herrera</h2>
+                    <p class="text-black-50">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod repellendus quis eveniet veritatis repellat
+                        delectus ab similique eius labore laboriosam natus, facere esse tenetur porro quos dignissimos,
+                         tempore deserunt temporibus?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--<img class="img-fluid" src="assets/img/pist.jpg" alt="..." />-->
+    </section>
+    <!-- Projects-->
+    <section class="main-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/pist.jpg" alt="..." /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Lorem Ipsum</h4>
+                        <p class="text-black-50 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minima ullam! Repudiandae ipsa veniam impedit quidem nostrum, ad distinctio minus molestias unde totam quo quis accusantium autem illo excepturi aliquid?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/banner_salud.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="main-bg text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Lorem</h4>
+                                <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora odio placeat quam veniam ipsam cupiditate, in libero quo velit cumque amet iusto, aspernatur alias maxime beatae fuga dolores ratione.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/banner_3.jpg" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="main-bg text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Ipsum Dolor</h4>
+                                <p class="mb-0 text-white-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptates quasi labore ipsa placeat nisi fugit dicta eum iste. Aliquid magni eveniet natus. Itaque id molestias soluta nam illum porro!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt mb-2" style="color: #62dd2f;"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope mb-2" style="color: #62dd2f;"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt mb-2" style="color: #62dd2f;"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Diweb 2024</div></footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
